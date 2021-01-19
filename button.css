@@ -1,0 +1,67 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-80 {
+  font-size: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.button-dark, .button-light {
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.button-dark:hover, .button-light:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.button-dark {
+  border: 2px solid #ECECEC;
+  background: #b16644;
+  color: white;
+}
+
+.button-dark:hover {
+  background: #ECECEC;
+  color: #b16644;
+}
+
+.button-light {
+  border: 2px solid #b16644;
+  background: #ECECEC;
+  color: #b16644;
+}
+
+.button-light:hover {
+  background: #b16644;
+  color: white;
+}
+
+.send {
+  margin: 0 0 0 70px;
+}
+/*# sourceMappingURL=button.css.map */

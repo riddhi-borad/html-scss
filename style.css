@@ -1,0 +1,234 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-80 {
+  font-size: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+.container {
+  padding: 0 10%;
+  letter-spacing: 1px;
+}
+
+.devloper {
+  height: 750px;
+  background: #ECECEC;
+  color: #b16644;
+}
+
+.dflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-div {
+  width: 50%;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.teach {
+  background: #b16644;
+  color: white;
+}
+
+.heading2, .heading3 {
+  font-weight: 600;
+  padding: 50px 0;
+}
+
+.teach_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 50px;
+}
+
+.block1, .block2, .block3 {
+  width: 30%;
+  margin: 20px;
+}
+
+.ver_line {
+  height: auto;
+  width: 5px;
+  background-color: #daa98a;
+}
+
+.learn {
+  background: #ECECEC;
+  color: #b16644;
+  padding: 0 0 50px;
+}
+
+.practical {
+  background: #b16644;
+  color: white;
+  height: 500px;
+}
+
+.prac_img {
+  padding: 60px 0;
+}
+
+.heading4 {
+  font-weight: 600;
+  padding: 50px 0 0 0;
+}
+
+.abt_img {
+  margin: 75px 0 0 0;
+}
+
+.creative_pera {
+  padding: 0 0 70px 0;
+}
+
+.form_control {
+  margin: 70px 0 0 70px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin: 0 0 50px 5px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.service_list {
+  margin: 0 0 5px 0;
+}
+
+.ser_p {
+  margin: 0 0 20px 0;
+}
+
+.footer {
+  background: #ECECEC;
+  color: #b16644;
+  height: 70px;
+  padding: 40px 0 0 0;
+}
+
+#bol {
+  -webkit-animation: rotation 2s infinite linear;
+          animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(359deg);
+            transform: rotateZ(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(359deg);
+            transform: rotateZ(359deg);
+  }
+}
+
+#heart {
+  -webkit-animation: flip 2s infinite linear;
+          animation: flip 2s infinite linear;
+}
+
+@-webkit-keyframes flip {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(359deg);
+            transform: rotateY(359deg);
+  }
+}
+
+@keyframes flip {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(359deg);
+            transform: rotateY(359deg);
+  }
+}
+
+.service {
+  height: 375px;
+}
+
+#digital {
+  width: 25%;
+  position: absolute;
+  left: -400px;
+}
+
+#design {
+  width: 25%;
+  position: absolute;
+  left: -400px;
+}
+
+#devlop {
+  width: 25%;
+  position: absolute;
+  left: -400px;
+}
+/*# sourceMappingURL=style.css.map */

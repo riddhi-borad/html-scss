@@ -1,0 +1,47 @@
+@import './variables';
+
+.menu{
+    height:110px;
+  }
+  .menu_left{
+    padding:15px 0 0 0;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+  }
+  li{
+    padding:20px;
+    position: relative;
+  }
+  a{
+    text-decoration: none;
+    color:TextColor($light_back);
+  }
+  .home:before,.about:before,.serv:before{
+    content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: $darkColor;
+	transition: 1s;
+	position: absolute;
+	bottom:15%; 
+  }
+  .home:hover::before
+{
+	width: 50%;
+	transition: 1s;
+}
+.about:hover::before
+{
+	width: 55%;
+	transition: 1s;
+}
+.serv:hover::before{
+  width: 65%;
+	transition: 1s;
+}
+  .active{
+    font-weight:600;
+  }

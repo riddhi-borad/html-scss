@@ -1,0 +1,23 @@
+@import './variables';
+
+.button-dark{
+   @extend %btn;
+    border:2px solid $light_back;
+    @include setBackgroungColor($darkColor);
+  }
+  .button-dark:hover{
+    @extend %btn_hover;
+    @include setBackgroungColor($light_back);
+  }
+  .button-light{
+    @extend %btn;
+    border:2px solid $darkColor;
+    @include setBackgroungColor($light_back);
+  }
+  .button-light:hover{
+    @extend %btn_hover;
+    @include setBackgroungColor($darkColor);
+  }
+  .send{
+    margin:0 0 0 70px;
+  }

@@ -1,0 +1,132 @@
+@import './variables';
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    margin:0
+}
+.container{
+  padding:0 10%;
+  letter-spacing: 1px;
+}
+  .devloper{
+    height:750px;
+    @include setBackgroungColor($light_back); 
+  }
+  .dflex{
+    display:flex;
+  }
+  .text-div{
+    width:50%;
+  }
+  .weight-600{
+    font-weight: 600;
+  }
+  .teach{
+    @include setBackgroungColor($darkColor);
+  }
+  .heading2,.heading3{
+    font-weight: 600;
+    padding: 50px 0;
+  }
+  .teach_block{
+    display: flex;  
+    padding:0 0 50px;
+  }
+  .block1,.block2,.block3{
+    width:30%;
+    margin:20px;
+  }
+  .ver_line{
+    height:auto;
+    width:5px;
+    background-color: #daa98a;
+  }
+  .learn{
+    @include setBackgroungColor($light_back);
+    padding:0 0 50px;
+  }
+  .practical{
+    @include setBackgroungColor($darkColor);
+    height:500px;
+  }
+  .prac_img{
+    padding:60px 0;
+  }
+  .heading4{
+    font-weight: 600;
+    padding: 50px 0 0 0;
+  }
+  .abt_img{
+    margin:75px 0 0 0;
+  }
+  .creative_pera{
+    padding: 0 0 70px 0;
+  }
+  .form_control{
+    margin:70px 0 0 70px;
+  }
+  input{
+    background:transparent;
+    border:none;
+    border-bottom: 2px solid white;
+    width:90%;
+    margin:0 0 50px 5px;
+  }
+  ::placeholder{
+    color: white;
+  }
+  .service_list{
+    margin:0 0 5px 0;
+  }
+  .ser_p{
+    margin:0 0 20px 0;
+  }
+  .footer{
+    @include setBackgroungColor($light_back);
+    height:70px;
+    padding:40px 0 0 0;
+  }
+// animation
+#bol {
+ animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotateZ(0deg);
+  }
+  to {
+     transform: rotateZ(359deg);
+  }
+}
+#heart{
+  animation:flip 2s infinite linear;
+}
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+  }
+}
+.service{
+  height:375px;
+}
+
+#digital{
+  width:25%;
+  position: absolute;
+  left:-400px;
+}
+#design{
+  width:25%;
+  position: absolute;
+  left:-400px;
+}
+#devlop{
+  width:25%;
+  position: absolute;
+ left:-400px;
+}

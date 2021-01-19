@@ -1,0 +1,46 @@
+$darkColor:#b16644;
+$lightColor:white;
+$light_back:#ECECEC;
+@mixin setBackgroungColor($color){
+        background:$color;
+        color:TextColor($color)
+    }
+@function TextColor($color){
+    @if(lightness($color)<70){
+        @return $lightColor;
+    }
+    @else{
+        @return $darkColor;
+    }
+}
+    $leftright:('left','right');
+    @each $LR in $leftright{
+        .float-#{$LR}{
+           float:#{$LR};
+        }
+    }
+    
+    $fontsize:(20,50,80);
+    @each $fz in $fontsize{
+        .font-#{$fz}{
+           font-size:#{$fz}px;
+        }
+    }
+    $align:(center,right);
+    @each $al in $align
+    {
+        .text-#{$al}{
+            text-align: #{$al};
+        }
+    }
+    %btn{
+        font-size: 15px;
+        border-radius:20px;
+        padding:15px;
+        margin:5px;
+    }
+    %btn_hover{
+        transition: .3s;
+        cursor: pointer;
+    }
+   

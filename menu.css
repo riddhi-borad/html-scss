@@ -1,0 +1,87 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-80 {
+  font-size: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.menu {
+  height: 110px;
+}
+
+.menu_left {
+  padding: 15px 0 0 0;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  padding: 20px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #b16644;
+}
+
+.home:before, .about:before, .serv:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #b16644;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: absolute;
+  bottom: 15%;
+}
+
+.home:hover::before {
+  width: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.about:hover::before {
+  width: 55%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.serv:hover::before {
+  width: 65%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.active {
+  font-weight: 600;
+}
+/*# sourceMappingURL=menu.css.map */
